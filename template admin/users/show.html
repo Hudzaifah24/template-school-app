@@ -129,207 +129,170 @@
         
             <div class="w-full h-screen overflow-x-hidden border-t flex flex-col">
                 <main class="w-full flex-grow p-6">
-                    <h1 class="text-3xl text-black pb-6">Detail pengguna Hudzaifah</h1>
+		        <h1 class="text-3xl text-black pb-6">Detail pengguna Hudzaifah</h1>
 
-                    <div class="grid grid-cols-3 gap-3">
-                        <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                            <div class="flex px-4 pt-4">
-                                <div class="w-full flex items-center justify-between mb-3">
-                                    <h1 class="text-xl">Pengguna</h1>
-                                    <button id="dropdownButton" data-dropdown-toggle="dropdownPengguna" class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5" type="button">
-                                        <span class="sr-only">Open dropdown</span>
-                                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
-                                    </button>
-                                </div>
-                                <!-- Dropdown menu -->
-                                <div id="dropdownPengguna" class="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                                    <ul class="py-2" aria-labelledby="dropdownButton">
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Export Data</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Hapus</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="flex flex-col items-center pb-10">
-                                <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" alt="Bonnie image"/>
-                                <div class="flex mt-4 space-x-3 md:mt-6">
-                                    <div class="flex flex-col">
-                                        <div class="relative overflow-x-auto">
-                                            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                                <tbody>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Nama
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            Hudzaifah
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Role
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            Admin
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Email
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            hudzaifah@gmail.com
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            NIS
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            -
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+		        <div class="grid grid-cols-3 gap-3">
+		            <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+		                <div class="flex px-4 pt-4">
+		                    <div class="w-full flex items-center justify-between mb-3">
+		                        <h1 class="text-xl">Pengguna</h1>
+		                    </div>
+		                </div>
+		                <div class="flex flex-col items-center pb-10">
+		                    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" alt="Bonnie image"/>
+		                    <div class="flex mt-4 space-x-3 md:mt-6">
+		                        <div class="flex flex-col">
+		                            <div class="relative overflow-x-auto">
+		                                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+		                                    <tbody>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Nama
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                Hudzaifah
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Role
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                Admin
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Email
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                hudzaifah@gmail.com
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                NIS
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                -
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white">
+		                                            <th colspan='2' class="py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                <a href="#" class="my-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:focus:ring-yellow-900">Edit</a>
+		                                            </th>
+		                                        </tr>
+		                                    </tbody>
+		                                </table>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
 
-                        <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                            <div class="flex px-4 pt-4">
-                                <div class="w-full flex items-center justify-between mb-3">
-                                    <h1 class="text-xl">Bapak (wali PJ)</h1>
-                                    <button id="dropdownButton" data-dropdown-toggle="dropdownBapak" class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5" type="button">
-                                        <span class="sr-only">Open dropdown</span>
-                                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
-                                    </button>
-                                </div>
-                                <!-- Dropdown menu -->
-                                <div id="dropdownBapak" class="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                                    <ul class="py-2" aria-labelledby="dropdownButton">
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Export Data</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Hapus</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="flex flex-col items-center pb-10">
-                                <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" alt="Bonnie image"/>
-                                <div class="flex mt-4 space-x-3 md:mt-6">
-                                    <div class="flex flex-col">
-                                        <div class="relative overflow-x-auto">
-                                            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                                <tbody>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Nama
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            Dede sukendi
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Nomor telpon
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            081285861910
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Email
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            dede@gmail.com
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+		            <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+		                <div class="flex px-4 pt-4">
+		                    <div class="w-full flex items-center justify-between mb-3">
+		                        <h1 class="text-xl">Bapak (wali PJ)</h1>
+		                    </div>
+		                </div>
+		                <div class="flex flex-col items-center pb-10">
+		                    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" alt="Bonnie image"/>
+		                    <div class="flex mt-4 space-x-3 md:mt-6">
+		                        <div class="flex flex-col">
+		                            <div class="relative overflow-x-auto">
+		                                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+		                                    <tbody>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Nama
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                Dede sukendi
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Nomor telpon
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                081285861910
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Email
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                dede@gmail.com
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white">
+		                                            <th colspan='2' class="py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                <a href="#" class="mr-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:focus:ring-yellow-900">Edit</a>
+		                                                <a href="#" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Hapus</a>
+		                                            </th>
+		                                        </tr>
+		                                    </tbody>
+		                                </table>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
 
-                        <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                            <div class="flex px-4 pt-4">
-                                <div class="w-full flex items-center justify-between mb-3">
-                                    <h1 class="text-xl">Ibu</h1>
-                                    <button id="dropdownButton" data-dropdown-toggle="dropdownIbu" class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5" type="button">
-                                        <span class="sr-only">Open dropdown</span>
-                                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
-                                    </button>
-                                </div>
-                                <!-- Dropdown menu -->
-                                <div id="dropdownIbu" class="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                                    <ul class="py-2" aria-labelledby="dropdownButton">
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Edit</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Export Data</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="block px-4 py-2 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Hapus</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="flex flex-col items-center pb-10">
-                                <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" alt="Bonnie image"/>
-                                <div class="flex mt-4 space-x-3 md:mt-6">
-                                    <div class="flex flex-col">
-                                        <div class="relative overflow-x-auto">
-                                            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                                                <tbody>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Nama
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            Sari romlah
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Nomor telpon
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            081380401956
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                            Email
-                                                        </th>
-                                                        <td class="px-6 py-4">
-                                                            sariromlah24@gmail.com
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </main>
+		            <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+		                <div class="flex px-4 pt-4">
+		                    <div class="w-full flex items-center justify-between mb-3">
+		                        <h1 class="text-xl">Ibu</h1>
+		                    </div>
+		                </div>
+		                <div class="flex flex-col items-center pb-10">
+		                    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" alt="Bonnie image"/>
+		                    <div class="flex mt-4 space-x-3 md:mt-6">
+		                        <div class="flex flex-col">
+		                            <div class="relative overflow-x-auto">
+		                            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+		                                    <tbody>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Nama
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                Sari Romlah
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Nomor telpon
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                081380401956
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+		                                            <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                Email
+		                                            </th>
+		                                            <td class="px-6 py-4">
+		                                                sari@gmail.com
+		                                            </td>
+		                                        </tr>
+		                                        <tr class="bg-white">
+		                                            <th colspan='2' class="py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+		                                                <a href="#" class="mr-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:focus:ring-yellow-900">Edit</a>
+		                                                <a href="#" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Hapus</a>
+		                                            </th>
+		                                        </tr>
+		                                    </tbody>
+		                                </table>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </main>
         
                 <footer class="w-full bg-white text-right p-4">
                     Built by <a target="_blank" href="https://davidgrzyb.com" class="underline">David Grzyb</a>.
